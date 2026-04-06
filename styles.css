@@ -1,15 +1,22 @@
 :root {
-  --bg: #071019;
-  --bg-2: #0d1824;
-  --panel: rgba(14, 23, 34, 0.82);
-  --panel-strong: rgba(18, 29, 43, 0.95);
-  --text: #f7f8fb;
-  --muted: #a9b5c4;
+  --bg: #2F3A2E;
+  --bg-2: #242D22;
+
+  --panel: rgba(47, 58, 46, 0.82);
+  --panel-strong: rgba(36, 45, 34, 0.95);
+
+  --text: #F5F7F3;
+  --muted: #C2CBBE;
+
   --line: rgba(255, 255, 255, 0.08);
-  --accent: #caa45d;
-  --accent-soft: rgba(202, 164, 93, 0.18);
+
+  --accent: #AFC8A4;
+  --accent-soft: rgba(175, 200, 164, 0.22);
+
   --white-soft: rgba(255, 255, 255, 0.04);
+
   --shadow: 0 18px 50px rgba(0, 0, 0, 0.34);
+
   --radius-xl: 28px;
   --radius-lg: 20px;
   --radius-md: 16px;
@@ -31,8 +38,8 @@ body {
     sans-serif;
   color: var(--text);
   background:
-    radial-gradient(circle at top left, rgba(202, 164, 93, 0.12), transparent 28%),
-    radial-gradient(circle at bottom right, rgba(85, 129, 177, 0.14), transparent 30%),
+    radial-gradient(circle at top left, rgba(175, 200, 164, 0.12), transparent 28%),
+    radial-gradient(circle at bottom right, rgba(150, 165, 120, 0.14), transparent 30%),
     linear-gradient(180deg, var(--bg), var(--bg-2));
   position: relative;
   overflow-x: hidden;
@@ -56,7 +63,7 @@ a {
   height: 240px;
   top: -40px;
   right: -60px;
-  background: rgba(202, 164, 93, 0.12);
+  background: rgba(175, 200, 164, 0.12);
 }
 
 .orb-2 {
@@ -64,7 +71,7 @@ a {
   height: 220px;
   bottom: 10%;
   left: -80px;
-  background: rgba(104, 150, 201, 0.1);
+  background: rgba(150, 165, 120, 0.1);
 }
 
 .page {
@@ -107,7 +114,7 @@ h1 {
   margin: 12px 0 0;
   font-size: 1rem;
   font-weight: 600;
-  color: #e7ebf1;
+  color: #EAF0E6;
 }
 
 .hero-tagline {
@@ -151,9 +158,9 @@ h1 {
 }
 
 .hero-button.primary {
-  background: linear-gradient(180deg, #d8b16a, #b88e49);
-  color: #10151c;
-  box-shadow: 0 10px 30px rgba(202, 164, 93, 0.22);
+  background: linear-gradient(180deg, #C9D9B8, #9FB889);
+  color: #1C1C1C;
+  box-shadow: 0 10px 30px rgba(175, 200, 164, 0.22);
 }
 
 .hero-button.secondary {
@@ -211,8 +218,8 @@ h1 {
 
 .link-card:hover,
 .link-card:focus-visible {
-  border-color: rgba(202, 164, 93, 0.38);
-  background: linear-gradient(180deg, rgba(202,164,93,0.08), rgba(255,255,255,0.02));
+  border-color: rgba(175, 200, 164, 0.38);
+  background: linear-gradient(180deg, rgba(175,200,164,0.08), rgba(255,255,255,0.02));
   outline: none;
 }
 
@@ -261,7 +268,4 @@ h1 {
     grid-template-columns: 1fr 1fr;
   }
 
-  .card:last-child {
-    grid-column: span 2;
-  }
 }
